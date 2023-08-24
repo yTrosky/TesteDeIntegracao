@@ -1,0 +1,84 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5479F7;
+    background-size: cover; /* Redimensiona a imagem para cobrir a tela */
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 550px;
+ 
+}
+
+.form {
+    text-align: center;
+    
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    color: #000000;
+    margin: 30px;
+    font-size: 40px;
+}
+
+.form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #000000;
+    margin: 160px;
+    font-size: 20px;
+}
+
+.form input[type="date"] {
+    width: 95%;
+    padding: 10px;
+    margin: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15pt;
+}
+
+.form button {
+    background: linear-gradient(to bottom, #5479F7, #000000); /* Gradiente vertical de duas cores */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 30px;
+    width: 300px; /* Reduzi a largura para que fique mais agradável visualmente */
+    height: 50px;
+    font-size: 20px;
+}
+
+.form button:hover {
+    background: linear-gradient(to bottom, #000000, #5479F7); /* Inverte o gradiente ao passar o mouse */
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+
